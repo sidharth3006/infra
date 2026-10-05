@@ -1,3 +1,4 @@
+#Dev environment - managed via github actions CI/CD
 locals {
   project = "pharma"
   env     = "dev"
