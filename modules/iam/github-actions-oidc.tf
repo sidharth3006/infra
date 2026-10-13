@@ -48,6 +48,7 @@ data "aws_iam_policy_document" "github_actions_assume_role" {
       values = [
         "repo:${var.github_org}/frontend:ref:refs/heads/*",
         "repo:${var.github_org}/backend:ref:refs/heads/*",
+        "repo:${var.github_org}@113471177/frontend@1398024281:ref:refs/heads/*",
       ]
     }
   }
